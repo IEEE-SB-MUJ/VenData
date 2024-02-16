@@ -7,10 +7,10 @@
     box-sizing: border-box;
 }
 
-/* Body Styling with Gradient Background */
+/* Body Styling */
 body {
     font-family: 'Inter', sans-serif;
-    background: linear-gradient(to right, #000, #131313); /* Gradient background */
+    background: linear-gradient(to right, #000, #131313); 
     color: #fff;
 }
 
@@ -35,7 +35,7 @@ header {
 
 .header-left h1 {
     margin: 0;
-    color: #fff; /* White */
+    color: #fff; 
     font-family: 'Inter', sans-serif;
     font-weight: bold;
 }
@@ -66,7 +66,7 @@ header {
 
 /* Footer Styling */
 footer {
-    background-color: #1d1d1d; /* Dark color */
+    background-color: #1d1d1d; 
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -96,7 +96,7 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-size: cover;
     background-position: center;
-    color: #fff; /* White */
+    color: #fff; 
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -106,13 +106,13 @@ footer {
 
 .heroes-subheading {
     font-size: 24px;
-    color: #e87722; /* Orange */
+    color: #e87722; 
 }
 
 .heroes-prize,
 .heroes-amount {
     font-size: 32px;
-    color: #ffc72c; /* Yellow */
+    color: #ffc72c; 
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -120,7 +120,7 @@ footer {
 .heroes-description {
     font-size: 18px;
     line-height: 1.6;
-    color: #658d1b; /* Green */
+    color: #658d1b; 
 }
 
 /* Resources Section Styling */
@@ -128,8 +128,8 @@ footer {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #202020; /* Dark background color */
-    color: #cccccc; /* Light text color */
+    background-color: #202020; 
+    color: #cccccc; 
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -139,7 +139,7 @@ footer {
 
 .resources h2 {
     font-size: 24px;
-    color: #445566; /* Darker blue color */
+    color: #445566;
 }
 
 .resources ul {
@@ -150,7 +150,7 @@ footer {
 
 .resources li {
     margin-bottom: 10px;
-    color: #778899; /* Slate gray color */
+    color: #778899; 
 }
 
 .poster-image {
@@ -159,5 +159,5 @@ footer {
     object-position: center;
     border-radius: 8px;
     margin-top: 25px;
-    justify-self: center; /* Center the image horizontally using grid */
+    justify-self: center;
 }
